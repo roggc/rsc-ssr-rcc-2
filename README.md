@@ -1,14 +1,13 @@
 # RSC + SSR + RCC
 
-This is an implementation from scratch of RSC (React Server Components) plus SSR (Server Side Rendering) plus RCC (React Client Components).
+This is an implementation from scratch of RSC (React Server Components) plus SSR (Server Side Rendering) plus RCC (React Client Components). This version 2. [Version 1](https://github.com/roggc/rsc-ssr-rcc) has separated servers for SSR and RSC. In this version there is only one server (`app`).
 
 ## How to install and run the project.
 
 1. **npm i**
 2. **npm run dev**
-3. **npm run rsc** (in a new terminal window)
-4. **npm run ssr** (in a new terminal window)
-5. enter **localhost:8080** in the browser.
+3. **npm run app** (in a new terminal window)
+4. enter **localhost:8080** in the browser.
 
 ## More Info
 
