@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from "./footer.js";
-import { useSlice } from "../../../client/slices.js";
+import { useSlice } from "../slices.js";
 import RSC from "./rsc.js";
 
 const LoadingPage = ({ page }) => <>loading {page} page...</>;

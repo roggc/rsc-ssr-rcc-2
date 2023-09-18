@@ -1,5 +1,5 @@
 import React from "react";
-import Email from "../client/email.js";
+import Email from "../../client/components/email.js";
 
 export default async function EmailRSC({ name }) {
   const email = await new Promise((r) =>
@@ -12,10 +12,5 @@ export default async function EmailRSC({ name }) {
       }
     }, 3000)
   );
-  return (
-    <Email
-      __isClient__="../../server/components/client/email.js"
-      email={email}
-    />
-  );
+  return <Email __isClient__="../components/email.js" email={email} />;
 }
