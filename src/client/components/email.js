@@ -1,5 +1,5 @@
 import React from "react";
-import { useSlice } from "../../../client/slices.js";
+import { useSlice } from "../slices.js";
 
 export default function Email({ email }) {
   const [func] = useSlice("function");

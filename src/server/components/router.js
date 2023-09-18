@@ -3,8 +3,8 @@ import HomeRSC from "./home-rsc.js";
 import GreetingRSC from "./greeting-rsc.js";
 import AgeRSC from "./age-rsc.js";
 import EmailRSC from "./email-rsc.js";
-import Provider from "../../../client/slices.js";
-import Layout from "../client/layout.js";
+import Provider from "../../client/slices.js";
+import Layout from "../../client/components/layout.js";
 
 export default async function Router({ url }) {
   const props = JSON.parse(url.searchParams.get("props"));
@@ -13,7 +13,7 @@ export default async function Router({ url }) {
     case "/":
       return (
         <Provider __isClient__="../slices.js">
-          <Layout __isClient__="../../server/components/client/layout.js" />
+          <Layout __isClient__="../components/layout.js" />
         </Provider>
       );
     case "/home":

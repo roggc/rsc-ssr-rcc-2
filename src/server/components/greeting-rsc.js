@@ -1,5 +1,5 @@
 import React from "react";
-import Greeting from "../client/greeting.js";
+import Greeting from "../../client/components/greeting.js";
 
 export default async function GreetingRSC(props) {
   const data = await new Promise((r) => setTimeout(() => r("good bye"), 1000));
@@ -9,7 +9,7 @@ export default async function GreetingRSC(props) {
       <Greeting
         greeting={data}
         {...props}
-        __isClient__="../../server/components/client/greeting.js"
+        __isClient__="../components/greeting.js"
       />
     </>
   );

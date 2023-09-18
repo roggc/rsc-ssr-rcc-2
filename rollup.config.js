@@ -10,7 +10,7 @@ export default [
   {
     input: {
       app: "src/server/app.js",
-      router: "src/server/components/server/router.js",
+      router: "src/server/components/router.js",
     },
     output: {
       dir: "dist",
@@ -21,7 +21,7 @@ export default [
   },
   {
     input: (await globby("src/client/*.js"))
-      .concat(await globby("src/server/components/client/*.js"))
+      .concat(await globby("src/client/components/*.js"))
       .reduce(
         (acc, entryFile) => ({
           ...acc,

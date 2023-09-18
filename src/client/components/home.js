@@ -1,6 +1,6 @@
 import React from "react";
 import RSC from "./rsc.js";
-import { useSlice } from "../../../client/slices.js";
+import { useSlice } from "../slices.js";
 
 export default function Home({ name }) {
   const [, setFunction] = useSlice("function");
