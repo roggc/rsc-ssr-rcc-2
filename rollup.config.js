@@ -9,8 +9,7 @@ import { globby } from "globby";
 export default [
   {
     input: {
-      rsc: "src/server/rsc.js",
-      ssr: "src/server/ssr.js",
+      app: "src/server/app.js",
       router: "src/server/components/server/router.js",
     },
     output: {
