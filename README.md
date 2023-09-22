@@ -15,4 +15,4 @@ You can see a more complete setup (with styled-components prepared) at [here](ht
 
 An article explaining the theory behind this project can be found [here](https://medium.com/@roggc9/rsc-ssr-rcc-react-client-components-implementation-from-scratch-e96ba0d6e1b4).
 
-Another article explaining the theory and the final setup found in [here](https://github.com/roggc/rsc-ssr-rcc-setup) (similar to this one but more complete) can be found [here].
+Another article explaining the theory and the final setup found in [here](https://github.com/roggc/rsc-ssr-rcc-setup) (similar to this one but more complete) can be found [here](https://medium.com/@roggc9/a-setup-for-rsc-development-1524cb1015ca).
